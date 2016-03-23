@@ -1,0 +1,156 @@
+ /* Pascal Warren 2015 */
+
+ @charset "utf-8";
+            /* CSS Document */
+            html{
+                background: #d4d4d4;
+            }
+            body{
+                margin:0 auto;
+                font-family: 'Oswald', sans-serif;
+                letter-spacing:0.5px;
+                max-width:900px;
+            }
+
+            header {
+                height:100vh;
+                background-image: url(../imgs/desert.jpg); 
+                background-size: 100% 100%;	
+                display:flex;
+                flex-direction: column;
+                justify-content:center;
+                align-items: center;
+            }
+
+            h1, h2, h3, h4{
+                text-transform: uppercase;
+            }
+
+            h1{
+                color: #ffd20d;
+                font-size: 35px;
+                line-height: auto;
+                font-weight:bold;
+            }
+
+            h2{
+                color: #fff;
+                    font-size: 26px;
+                    font-weight:bold;
+            }
+            .center{
+                text-align:center;
+                margin-bottom:40px;
+            }
+            .centered {
+                margin: 30px auto;
+                width: 80%;
+                text-align:center;
+
+            }
+            .centered p{
+                color:#fff;
+                font-size:16px;
+                font-weight:bold;
+                margin-top:20px;
+            }
+            .centered img{
+                width:100%;
+            }
+            .head-ul{
+                color:#fff;
+                text-align:left;
+                font-weight: bold;
+            }
+            .ul-wrap{
+                margin-top:50px;	
+            }
+ 
+            .yellow{
+                color:#ffd20d;
+                background:none;
+            }
+            header h1{
+                margin:0 0 20px 0;
+                text-align:center;
+            }
+            header h2{
+                text-align:center;
+            }
+            .btn{
+                background-color: #CEA700;
+                color: #fff;
+                text-decoration:none;
+                font-size: 26px;
+                padding:15px;
+                border-radius: 5px;
+            }
+            .btn:hover{
+                background-color: #fff;
+                color:#CEA700;
+            }
+ 
+
+            @media all and (min-width : 768px) and (max-width : 990px) {
+
+                    .head-ul{
+                        display:none;
+                    }
+                    .centered img{
+                    width:220px;
+                    }
+                    .centered{
+                        margin:0px auto;	
+                    }
+                    header h2{
+                        font-size:20px;
+                        padding:0 5px 5px 5px;
+                        margin-bottom:10%
+                    }
+                    .btn{
+                        font-size:20px;
+                        padding:10px;
+                        margin-top:10px;	
+                    }
+                    header .btn{
+                        margin-top:10%;	
+                    }
+                    header h1{
+                        font-size:40px;
+                        padding: 0 5px 0 5px;
+                        margin-top:0;	
+                    }
+
+            }
+
+            @media all and (min-width: 320px) and (max-width: 780px) {
+
+                    .head-ul{
+                        display:none;
+                    }
+                    .centered img{
+                    width:220px;
+                    }
+                    .centered{
+                        margin:0px auto;	
+                    }
+                    header h2{
+                        font-size:20px;
+                        padding:0 5px 5px 5px;
+                        margin-bottom:10%;
+                    }
+                    .btn{
+                        font-size:20px;
+                        padding:10px;
+                        margin-top:10px;	
+                    }
+                    header .btn{
+                        margin-top:10%;	
+                    }
+                    header h1{
+                        font-size:40px;
+                        padding: 0 5px 0 5px;
+                        margin-top:0;	
+                    }
+
+            }
